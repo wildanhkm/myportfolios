@@ -1,0 +1,38 @@
+.hero h1 {
+  font-family: "Poppins";
+  color: #2f281e;
+}
+
+.hero p {
+  font-family: "Poppins";
+  color: #2f281e;
+}
+
+.navbar-nav .nav-link {
+  color: #2f281e;
+  font-family: "Poppins";
+}
+
+.btn-orange {
+  background: #ff9900;
+  border: 0;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-orange:hover {
+  background: #da8300;
+  border: 0;
+}
+
+.btn-transparent {
+  background: none;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+  font-weight: bold;
+}
+
+.btn-transparent:hover {
+  border: 1px solid #697480;
+}
