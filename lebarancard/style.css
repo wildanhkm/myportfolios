@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(245, 229, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.font {
+  font-family: Pacifico;
+}
+
+.ketupat-container {
+  list-style-type: none;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  transform: rotate(45deg);
+  position: relative;
+  top: 225px;
+  right: -115px;
+}
+
+.color-green {
+  background: rgb(21, 255, 0);
+}
+
+.color-green:nth-child(even) {
+  background: rgb(187, 255, 0);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 0 0 0;
+}
+
+.A {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.B {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.C {
+  display: inline-block;
+  position: relative;
+  top: 104px;
+  right: 104px;
+  width: 100px;
+  height: 100px;
+}
+.D {
+  display: inline-block;
+  position: relative;
+  top: 104px;
+  right: 312px;
+  width: 100px;
+  height: 100px;
+}
+.E {
+  display: inline-block;
+  position: relative;
+  top: 208px;
+  right: 208px;
+  width: 100px;
+  height: 100px;
+}
+.F {
+  display: inline-block;
+  position: relative;
+  top: 208px;
+  right: 416px;
+  width: 100px;
+  height: 100px;
+}
+.G {
+  display: inline-block;
+  position: relative;
+  top: -104px;
+  left: 208px;
+  width: 100px;
+  height: 100px;
+}
+.H {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 104px;
+  width: 100px;
+  height: 100px;
+}
+.I {
+  display: inline-block;
+  position: relative;
+  top: 105px;
+  left: -208px;
+  width: 100px;
+  height: 100px;
+}
