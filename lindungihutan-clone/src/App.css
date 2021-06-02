@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#topnav {
+  background: #045f50;
+}
+
+#topnav a {
+  color: #fff;
+}
+
+#navbar {
+  background: #fff;
+  color: #045f50;
+  font-weight: 700;
+  border-bottom: 2px solid #045f50;
+}
+
+#form {
+  border-color: #ccc;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: unset;
+}
+
+#navbar-right {
+  margin: 0 1.25rem 0 auto;
+}
+
+#btn-login {
+  background: #fff;
+  border: 2px solid #045f50;
+  color: #045f50;
+}
+
+#btn-login:hover {
+  background: #045f50;
+  color: #fff;
+}
+
+#kampanye {
+  display: block;
+  color: #fff;
+  background: #00c744;
+  border-radius: 50px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.19);
+  margin: 1rem auto;
+  border: none;
+  width: 300px;
+}
+
+#link {
+  display: block;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  border: none;
+  margin: 1rem auto;
+  text-decoration: underline;
+  width: 300px;
+}
+
+.btn-lihat {
+  background: #045f50;
+  border: 1px solid #045f50;
+  color: #fff;
+}
