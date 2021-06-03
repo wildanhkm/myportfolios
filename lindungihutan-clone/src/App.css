@@ -83,12 +83,64 @@
 
 .grey-hover {
   display: inline-block;
-  width: 90px;
+  filter: grayscale();
   margin: 0 0.5rem;
+  width: 90px;
+}
+
+.grey-hover:hover {
+  display: inline-block;
+  filter: none;
+  margin: 0 0.5rem;
+  width: 90px;
 }
 
 .link {
+  display: inline-block;
+  background: #fff;
+  border: none;
   color: #045f50;
-  text-decoration: none;
   font-weight: 700;
+  text-decoration: none;
+  text-align: left;
+  width: 10rem;
+}
+
+.link:hover {
+  background: #fff;
+  color: #045f50;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color {
+  color: #045f50;
+}
+
+.facebook,
+.insta,
+.twitter,
+.youtube {
+  display: inline-block;
+  color: gray;
+  margin: 0 0.3rem;
+}
+
+.facebook:hover {
+  color: darkblue;
+}
+
+.twitter:hover {
+  color: deepskyblue;
+}
+
+.insta:hover {
+  color: deeppink;
+}
+
+.youtube:hover {
+  color: red;
 }

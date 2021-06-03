@@ -1,6 +1,7 @@
 import React from "react";
-import { CButton, CCol, CContainer, CRow } from "@coreui/react";
+import { CButton, CCol, CContainer, CLink, CRow } from "@coreui/react";
 import LindungiHutan from "../images/logo_lindungihutan.png";
+import { Facebook, Twitter, Instagram, Youtube } from "react-bootstrap-icons";
 
 const FooterSection = () => {
   return (
@@ -8,7 +9,7 @@ const FooterSection = () => {
       <CRow>
         <CCol xs={12} sm={6} md={4}>
           <img src={LindungiHutan} alt="logo lindungi hutan" />
-          <span>LindungiHutan</span>
+          <span className="bold color">LindungiHutan</span>
           <p className="bold">
             Website Penggalangan Dana Online untuk Konservasi Hutan dan
             Lingkungan.
@@ -31,7 +32,7 @@ const FooterSection = () => {
           </CButton>
         </CCol>
         <CCol xs={7} sm={3} md={2}>
-          <CButton type="link" className="link">
+          <CButton type="link" className="link mt-4">
             Kebijakan dan Privasi
           </CButton>
           <CButton type="link" className="link">
@@ -42,8 +43,8 @@ const FooterSection = () => {
           </CButton>
         </CCol>
         <CCol sm={4} md={2}>
-          <CButton type="link" className="link">
-            Syarat dan Ketentuan
+          <CButton type="link" className="link mt-4">
+            Syarat Ketentuan
           </CButton>
           <CButton type="link" className="link">
             Mitra Alam
@@ -53,12 +54,27 @@ const FooterSection = () => {
           </CButton>
         </CCol>
         <CCol sm={4} md={2}>
-          <CButton type="link" className="link">
+          <CButton type="link" className="link mt-4">
             Relawan
           </CButton>
         </CCol>
-        <CCol sm={12} md={12}></CCol>
-        <CCol sm={12} md={12}></CCol>
+        <CCol sm={12} md={12}>
+          <CLink>
+            <Facebook size={24} className="facebook" />
+          </CLink>
+          <CLink>
+            <Twitter size={24} className="twitter" />
+          </CLink>
+          <CLink>
+            <Youtube size={24} className="youtube" />
+          </CLink>
+          <CLink>
+            <Instagram size={24} className="insta" />
+          </CLink>
+        </CCol>
+        <CCol sm={12} md={12} className="mt-5">
+          <p>Clone &copy; 2021 - made with ❤</p>
+        </CCol>
       </CRow>
     </CContainer>
   );
