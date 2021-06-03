@@ -69,3 +69,26 @@
   border: 1px solid #045f50;
   color: #fff;
 }
+
+.partner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.partner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey-hover {
+  display: inline-block;
+  width: 90px;
+  margin: 0 0.5rem;
+}
+
+.link {
+  color: #045f50;
+  text-decoration: none;
+  font-weight: 700;
+}

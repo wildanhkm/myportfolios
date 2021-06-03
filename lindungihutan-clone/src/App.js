@@ -8,6 +8,7 @@ import HeroContent from "./components/HeroContent";
 import CarouselSection from "./components/CarouselSection";
 import CardSection from "./components/CardSection";
 import PartnerSection from "./components/PartnerSection";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   document.title = "Lindungi Hutan Clone";
@@ -29,6 +30,9 @@ function App() {
         <CardSection />
         <PartnerSection />
       </main>
+      <footer>
+        <FooterSection />
+      </footer>
     </>
   );
 }
